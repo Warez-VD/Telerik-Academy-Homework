@@ -1,2 +1,1 @@
-# Telerik-Academy-Homeworks
-Solving tasks
+# Telerik Academy
