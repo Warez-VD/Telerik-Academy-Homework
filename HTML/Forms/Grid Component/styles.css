@@ -1,0 +1,68 @@
+﻿body {
+    margin: 0;
+    padding-top: 5px;
+    padding-left: 5px;
+    color: #3B3B3B;
+    font-size: 13px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+thead tr td{
+    border: 1px solid #A4ABB2;
+    padding: 5px;
+    background-color: #E7E9EB;
+}
+
+.align{
+    text-align: center;
+}
+
+thead tr td #productBox{
+    width: 28px;
+    border: 1px solid #9AA0A6;
+}
+
+thead tr td #prodName{
+    width: 142px;
+    border: 1px solid #9AA0A6;
+}
+
+thead tr td #qPerUnit{
+    width: 92px;
+    border: 1px solid #9AA0A6;
+}
+
+.textBoxes{
+    width: 78px;
+    border: 1px solid #9AA0A6;
+}
+
+.buttons{
+    border: 1px solid #A4ABB2;
+    border-radius: 2px;
+    width: 18px;
+    height: 18px;
+    vertical-align: top;
+}
+
+tbody tr td{
+    border: 1px solid #D0D7E5;
+    padding: 5px;
+}
+
+tfoot tr td{
+    border: 1px solid #A4ABB2;
+    margin-top: 1px;
+    padding: 5px;
+    background-color: #D1D5D9;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#secondSpan{
+    margin-left: 20px;
+    margin-right: 250px;
+}

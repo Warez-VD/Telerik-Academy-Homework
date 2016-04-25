@@ -1,0 +1,63 @@
+﻿body {
+    margin: 0;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+table tr td{
+    border: 1px solid #858585;
+    padding: 5px;
+}
+
+table tr td:first-child{
+    text-align: right;
+}
+
+.names{
+    width: 290px;
+}
+
+#address{
+    width: 280px;
+    height: 60px;
+    overflow: hidden;
+    resize: none;
+    margin: 0;
+    padding: 0;
+}
+
+#city{
+    width: 200px;
+}
+
+#state{
+    width: 45px;
+}
+
+.number{
+    width: 55px;
+}
+
+#numberTwo{
+    width: 135px;
+}
+
+.dates{
+    width: 30px;
+}
+
+#questions{
+    width: 280px;
+    height: 90px;
+    overflow: hidden;
+    resize: none;
+}
+
+#footer{
+    background: #D1EDE1;
+    text-align: center;
+}

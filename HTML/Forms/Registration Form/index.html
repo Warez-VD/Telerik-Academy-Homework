@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration form</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body>
+    <form name="registration">
+        <table>
+            <tr>
+                <td><strong>Last Name</strong></td>
+                <td colspan="3">
+                    <input type="text" class="names" />
+                </td>
+            </tr>
+            <tr>
+                <td><strong>First Name</strong></td>
+                <td colspan="3">
+                    <input type="text" class="names" />
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Address</strong></td>
+                <td colspan="3">
+                    <textarea id="address"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>City</strong></td>
+                <td>
+                    <input type="text" id="city" />
+                </td>
+                <td>
+                    <span><strong>State</strong></span>
+                </td>
+                <td>
+                    <input type="text" id="state" />
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Zip/Postal Code</strong></td>
+                <td colspan="3">
+                    <input type="text" />
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Country</strong></td>
+                <td colspan="3">
+                    <select>
+                        <option selected>Bulgaria</option>
+                        <option>England</option>
+                        <option>Peru</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>
+                        Phone (country code,<br />
+                        area code, number)
+                    </strong>
+                </td>
+                <td colspan="3">
+                    <span>
+                        (+
+                        <input type="text" class="number" />
+                        )
+                        <input type="text" class="number" />
+                        -
+                        <input type="text" id="numberTwo" />
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>E-mail</strong></td>
+                <td colspan="3">
+                    <input type="text" class="names" />
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Birth date</strong></td>
+                <td colspan="3">
+                    <span>
+                        Month
+                        <input type="number" class="dates" />
+                        Day
+                        <input type="number" class="dates" />
+                        Year (4 digit)
+                        <input type="number" class="number" />
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Gender</strong></td>
+                <td colspan="3">
+                    <select>
+                        <option selected>Male</option>
+                        <option>Female</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Starting date</strong></td>
+                <td colspan="3">
+                    <span>
+                        <input type="radio" name="date" id="spring" checked />
+                        <label for="spring">Spring 2006</label>
+                        <input type="radio" name="date" id="summer" />
+                        <label for="summer">Summer 2006</label>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Comments/Questions</strong></td>
+                <td colspan="3">
+                    <textarea id="questions"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4" id="footer">
+                    <input type="submit" value="Submit" />
+                    <input type="reset" value="Clear This Form" />
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
