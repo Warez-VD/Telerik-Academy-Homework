@@ -1,0 +1,39 @@
+﻿body {
+    margin: 0;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+header{
+    padding-left: 10px;
+}
+
+h1 , h2{
+    display: inline-block;
+    margin-right: 100px;
+}
+
+h2{
+    font-weight: normal;
+}
+
+ul{
+    list-style-type: disc;
+    padding-left: 30px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+table{
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+table tr th, table tr td{
+    border: 1px solid #000;
+    text-align: center;
+    padding: 5px;
+}
