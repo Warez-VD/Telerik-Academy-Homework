@@ -1,0 +1,25 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    width: 960px;
+    padding-left: 5px;
+}
+
+section p{
+    font-size: 20px;
+    color: #1C87FF;
+}
+
+section p:first-line{
+    color: #0890FF;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+section p:first-letter{
+    font-family: 'Edwardian Script ITC';
+    font-size: 30px;
+}

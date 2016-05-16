@@ -1,0 +1,55 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-color: #A9A9A9;
+    padding-left: 10px;
+}
+
+header h1{
+    color: #FAFAD2;
+    text-align: center;
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li{
+    color: #FFFFFF;
+    text-align: center;
+}
+
+header nav ul li a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+header nav ul li:last-of-type{
+    text-decoration: underline;
+}
+
+#specialLi{
+    background-color: #D3D3D3;
+}
+
+article header h1{
+    color: #FAFAD2;
+    text-align: left;
+}
+
+section{
+    margin-bottom: 30px;
+}
+
+footer p{
+    font-size: 12px;
+}
+
+.postName{
+    color: #000;
+    text-decoration: none;
+}
+
+#foot{
+    text-align: center;
+}

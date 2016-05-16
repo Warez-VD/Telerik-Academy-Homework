@@ -1,0 +1,49 @@
+﻿body{
+    padding: 0;
+    margin: 0;
+}
+
+section{
+    width: 300px;
+    background-color: #595959;
+    padding-left: 5px;
+}
+
+h1{
+    font-size: 14px;
+}
+
+.otherColor{
+    color: #BBBBBB;
+}
+
+table tr td{
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.fisrtTD{
+    color: #FFFFFF;
+    font-style: italic;
+}
+
+#cicle{
+    display: inline-block;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background: #71B47A;
+}
+
+.sameColor{
+    color: #E1D587;
+}
+
+#last{
+    color: #D86B28;
+}
+
+#support{
+    color: #E80103;
+    padding-bottom: 10px;
+}

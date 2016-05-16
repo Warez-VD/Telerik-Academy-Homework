@@ -1,0 +1,54 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+}
+
+table{
+    border-bottom: 1px solid #BBB99D;
+    border-collapse: collapse;
+}
+
+table tr th{
+    background-color: #47A803;
+    color: #FFF;
+    border-bottom: 1px solid #407F29;
+    border-right: 1px solid #407F29;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 5px;
+    text-align: left;
+}
+
+table tr th:last-of-type{
+    border-right: none;
+}
+
+table tr td{
+    border-right: 1px solid #C8C6B0;
+    font-size: 14px;
+    padding: 5px 40px 5px 5px;
+    text-align: left;
+}
+
+table tr td:last-of-type{
+    border-right: none;
+}
+
+table tr .otherColor{
+    background-color: #ECECD8;
+}
+
+img{
+    width: 20px;
+    height: 15px;
+    margin-top: 2px;
+}
+
+.country{
+    vertical-align: text-bottom;
+}
+
+input[type="checkbox"]{
+    background-color: #D4D0C8;
+    border: 1px inset #3E3E3E;
+}
