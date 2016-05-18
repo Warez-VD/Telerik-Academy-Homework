@@ -1,0 +1,41 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+}
+
+#mainList {
+    list-style-type: none;
+}
+    
+    #mainList li {
+        position: relative;
+    }
+
+    #mainList li a{
+        color: black;
+        text-decoration: none;
+    }
+
+.subList {
+    margin: 0;
+    margin-left: 10px;
+    padding: 0;
+    list-style-type: none;
+    display: none;
+}
+
+    .subList li {
+        opacity: 0.5;
+    }
+
+#mainList li a:hover {
+    text-decoration: underline;
+}
+
+    #mainList li:hover .subList {
+        display: block;
+    }
+
+    #mainList li:hover .subList li{
+        text-decoration: none;
+    }

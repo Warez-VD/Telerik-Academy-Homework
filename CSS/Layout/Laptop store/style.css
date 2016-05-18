@@ -1,0 +1,97 @@
+﻿body {
+    margin: 0;
+    padding-top: 2px;
+    padding-left: 2px;
+    width: 980px;
+}
+
+#wrapper{
+    border: 1px solid #000;
+    padding-bottom: 15px;
+    border-radius: 5px;
+}
+
+nav ul{
+    list-style-type: none;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    color: #0EAFF0;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+hr{
+    width: 90%;
+}
+
+section{
+    width: 620px;
+    border: 1px solid #303030;
+    float: left;
+    margin: 14px 30px 14px 14px;
+    padding: 8px 10px 20px 8px;
+}
+
+fieldset{
+    width: 300px;
+    display: inline-block;
+    font-size: 20px;
+    padding: 0;
+}
+
+legend{
+    font-size: 22px;
+    text-align: center;
+    margin: 0;
+    padding: 0 5px;
+}
+
+fieldset img{
+    float: left;
+    margin: 10px 5px 0 10px;
+}
+
+fieldset div:first-of-type{
+    margin-top: 55px;
+    margin-bottom: 15px;
+}
+
+fieldset div:first-of-type + div{
+    margin-bottom: 15px;
+}
+
+fieldset div span{
+    display: inline-block;
+}
+
+fieldset div span:first-of-type{
+    margin: 0 45px 5px 50px;
+}
+
+aside input[type="range"]{
+    display: block;
+    width: 255px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+aside div:first-of-type{
+    margin-top: 115px;
+}
+
+aside div span{
+    display: inline-block;
+    font-size: 25px;
+}
+
+aside div span:first-of-type{
+    margin-right: 60px;
+}
