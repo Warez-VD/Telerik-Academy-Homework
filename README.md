@@ -8,4 +8,13 @@
       <td><a href="https://github.com/Warez888/Telerik-Academy-Homework/tree/master/C%23%20OOP">C# OOP</a></td>
     </tr>
   </table>
+  
+  <table>
+    <tr><th colspan = "3">Web Front End</th></tr>
+    <tr>
+      <td><a href="https://github.com/Warez888/Telerik-Academy-Homework/tree/master/HTML">HTML</a></td>
+      <td><a href="https://github.com/Warez888/Telerik-Academy-Homework/tree/master/CSS">CSS</a></td>
+      <td><a href="#">JS Fundamentals</a></td>
+    </tr>
+  </table>
 </html>
