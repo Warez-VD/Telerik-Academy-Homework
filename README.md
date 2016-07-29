@@ -4,7 +4,7 @@
     <tr><th colspan = "2">C# Programming</th></tr>
     <tr>
       <td><a href="https://github.com/Warez888/Telerik-Academy-Homework/tree/master/C%23%20Part%201">C# Part 1</a></td>
-      <td>C# Part 2</td>
+      <td><a href="https://github.com/Warez888/Telerik-Academy-Homework/tree/master/C%23%20Part%202">C# Part 2</a></td>
     </tr>
   </table>
 </html>
