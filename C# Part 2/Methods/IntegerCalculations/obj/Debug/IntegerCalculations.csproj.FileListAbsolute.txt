@@ -1,0 +1,6 @@
+C:\Users\Warez\documents\visual studio 2015\Projects\Methods\IntegerCalculations\bin\Debug\IntegerCalculations.exe.config
+C:\Users\Warez\documents\visual studio 2015\Projects\Methods\IntegerCalculations\bin\Debug\IntegerCalculations.exe
+C:\Users\Warez\documents\visual studio 2015\Projects\Methods\IntegerCalculations\bin\Debug\IntegerCalculations.pdb
+C:\Users\Warez\documents\visual studio 2015\Projects\Methods\IntegerCalculations\obj\Debug\IntegerCalculations.csprojResolveAssemblyReference.cache
+C:\Users\Warez\documents\visual studio 2015\Projects\Methods\IntegerCalculations\obj\Debug\IntegerCalculations.exe
+C:\Users\Warez\documents\visual studio 2015\Projects\Methods\IntegerCalculations\obj\Debug\IntegerCalculations.pdb
