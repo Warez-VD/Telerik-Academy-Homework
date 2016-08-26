@@ -11,7 +11,7 @@
   </table>
   
   <table>
-    <tr><th colspan = "3">Web Front End</th></tr>
+    <tr><th colspan = "4">Web Front End</th></tr>
     <tr>
       <td><a href="https://github.com/Warez888/Telerik-Academy-Homework/tree/master/HTML">HTML</a></td>
       <td><a href="https://github.com/Warez888/Telerik-Academy-Homework/tree/master/CSS">CSS</a></td>
