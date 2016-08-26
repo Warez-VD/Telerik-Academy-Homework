@@ -16,7 +16,7 @@
       <td><a href="https://github.com/Warez888/Telerik-Academy-Homework/tree/master/HTML">HTML</a></td>
       <td><a href="https://github.com/Warez888/Telerik-Academy-Homework/tree/master/CSS">CSS</a></td>
       <td><a href="https://github.com/Warez888/Telerik-Academy-Homework/tree/master/JavaScript%20Fundamentals">JS Fundamentals</a></td>
-      <td><a href="https://github.com/Warez888/Telerik-Academy-Homework/tree/master/JavaScript%20Fundamentals">JS UI&DOM</a></td>
+      <td><a href="https://github.com/Warez-VD/Telerik-Academy-Homework/tree/master/JavaScript%20UI%26DOM">JS UI&DOM</a></td>
     </tr>
   </table>
 </html>
