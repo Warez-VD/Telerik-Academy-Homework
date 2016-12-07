@@ -9,8 +9,7 @@
       <td><a href="https://github.com/Warez-VD/Telerik-Academy-Homework/tree/master/C%23%20Unit%20Testing">C# Unit Testing</a></td>
     </tr>
     <tr>
-      <td><a href="#">C# HQC Part 1</a></td>
-      <td><a href="#">C# HQC Part 2</a></td>
+      <td><a href="#">Design Patterns</a></td>
     </tr>
   </table>
   
@@ -23,7 +22,7 @@
       <td><a href="https://github.com/Warez-VD/Telerik-Academy-Homework/tree/master/JavaScript%20UI%26DOM">JS UI&DOM</a></td>
     </tr>
     <tr>
-      <td><a href="#">JS Applications</a></td>
+      <td><a href="https://github.com/Warez-VD/Telerik-Academy-Homework/tree/master/JavaScript%20Applications">JS Applications</a></td>
     </tr>
   </table>
 </html>
