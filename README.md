@@ -9,7 +9,7 @@
       <td><a href="https://github.com/Warez-VD/Telerik-Academy-Homework/tree/master/C%23%20Unit%20Testing">C# Unit Testing</a></td>
     </tr>
     <tr>
-      <td><a href="#">Design Patterns</a></td>
+      <td><a href="https://github.com/Warez-VD/Telerik-Academy-Homework/tree/master/Design%20Patterns">Design Patterns</a></td>
     </tr>
   </table>
   
