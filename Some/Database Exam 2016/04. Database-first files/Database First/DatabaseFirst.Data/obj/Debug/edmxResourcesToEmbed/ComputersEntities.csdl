@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ComputersModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Computer">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Type" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Vendor" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Model" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CpuId" Type="Int32" Nullable="false" />
+    <Property Name="Memory" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Cpu" Relationship="Self.FK_Computers_Cpus" FromRole="Computers" ToRole="Cpus" />
+    <NavigationProperty Name="Gpus" Relationship="Self.ComputersGpus" FromRole="Computers" ToRole="Gpus" />
+    <NavigationProperty Name="StorageDevices" Relationship="Self.ComputersStorageDevices" FromRole="Computers" ToRole="StorageDevices" />
+  </EntityType>
+  <EntityType Name="Cpu">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Vendor" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Model" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="NumberOfCores" Type="Int32" Nullable="false" />
+    <Property Name="ClockCycles" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Computers" Relationship="Self.FK_Computers_Cpus" FromRole="Cpus" ToRole="Computers" />
+  </EntityType>
+  <EntityType Name="Gpu">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Vendor" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Model" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Type" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Memory" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Computers" Relationship="Self.ComputersGpus" FromRole="Gpus" ToRole="Computers" />
+  </EntityType>
+  <EntityType Name="StorageDevice">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Vendor" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Model" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Type" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Size" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Computers" Relationship="Self.ComputersStorageDevices" FromRole="StorageDevices" ToRole="Computers" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK_Computers_Cpus">
+    <End Role="Cpus" Type="Self.Cpu" Multiplicity="1" />
+    <End Role="Computers" Type="Self.Computer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cpus">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Computers">
+        <PropertyRef Name="CpuId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ComputersGpus">
+    <End Role="Computers" Type="Self.Computer" Multiplicity="*" />
+    <End Role="Gpus" Type="Self.Gpu" Multiplicity="*" />
+  </Association>
+  <Association Name="ComputersStorageDevices">
+    <End Role="Computers" Type="Self.Computer" Multiplicity="*" />
+    <End Role="StorageDevices" Type="Self.StorageDevice" Multiplicity="*" />
+  </Association>
+  <EntityContainer Name="ComputersEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Computers" EntityType="Self.Computer" />
+    <EntitySet Name="Cpus" EntityType="Self.Cpu" />
+    <EntitySet Name="Gpus" EntityType="Self.Gpu" />
+    <EntitySet Name="StorageDevices" EntityType="Self.StorageDevice" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <AssociationSet Name="FK_Computers_Cpus" Association="Self.FK_Computers_Cpus">
+      <End Role="Cpus" EntitySet="Cpus" />
+      <End Role="Computers" EntitySet="Computers" />
+    </AssociationSet>
+    <AssociationSet Name="ComputersGpus" Association="Self.ComputersGpus">
+      <End Role="Computers" EntitySet="Computers" />
+      <End Role="Gpus" EntitySet="Gpus" />
+    </AssociationSet>
+    <AssociationSet Name="ComputersStorageDevices" Association="Self.ComputersStorageDevices">
+      <End Role="Computers" EntitySet="Computers" />
+      <End Role="StorageDevices" EntitySet="StorageDevices" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,10 @@
+C:\Users\Wigga\Desktop\Exams\Database Exam 2016\04. Database-first files\Database First\DatabaseFirst.Common\bin\Debug\DatabaseFirst.Common.dll.config
+C:\Users\Wigga\Desktop\Exams\Database Exam 2016\04. Database-first files\Database First\DatabaseFirst.Common\bin\Debug\DatabaseFirst.Common.dll
+C:\Users\Wigga\Desktop\Exams\Database Exam 2016\04. Database-first files\Database First\DatabaseFirst.Common\bin\Debug\DatabaseFirst.Common.pdb
+C:\Users\Wigga\Desktop\Exams\Database Exam 2016\04. Database-first files\Database First\DatabaseFirst.Common\bin\Debug\EntityFramework.dll
+C:\Users\Wigga\Desktop\Exams\Database Exam 2016\04. Database-first files\Database First\DatabaseFirst.Common\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Wigga\Desktop\Exams\Database Exam 2016\04. Database-first files\Database First\DatabaseFirst.Common\bin\Debug\EntityFramework.xml
+C:\Users\Wigga\Desktop\Exams\Database Exam 2016\04. Database-first files\Database First\DatabaseFirst.Common\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Wigga\Desktop\Exams\Database Exam 2016\04. Database-first files\Database First\DatabaseFirst.Common\obj\Debug\DatabaseFirst.Common.csprojResolveAssemblyReference.cache
+C:\Users\Wigga\Desktop\Exams\Database Exam 2016\04. Database-first files\Database First\DatabaseFirst.Common\obj\Debug\DatabaseFirst.Common.dll
+C:\Users\Wigga\Desktop\Exams\Database Exam 2016\04. Database-first files\Database First\DatabaseFirst.Common\obj\Debug\DatabaseFirst.Common.pdb
