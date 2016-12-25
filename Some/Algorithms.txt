@@ -1,8 +1,0 @@
-Strings -> KMP
-Trees -> DFS, BFS
-Graphs -> Kruskal, Dijkstra, Topological search
-Search -> Linear, Binary
-Sort -> Selection, Insertion, Quick, Merge, Counting
-Greedy
-Structures -> Arrays, Lists, HashSet, SortedSet, Dictionary, SortedDictionary, Bag, OrderedBag, Deque, BigList
-Thats it!
