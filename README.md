@@ -10,7 +10,7 @@
     </tr>
     <tr>
       <td><a href="https://github.com/Warez-VD/Telerik-Academy-Homework/tree/master/Design%20Patterns">Design Patterns</a></td>
-      <td><a href="#">Databases</a></td>
+      <td><a href="https://github.com/Warez-VD/Telerik-Academy-Homework/tree/master/Databases">Databases</a></td>
     </tr>
   </table>
   
