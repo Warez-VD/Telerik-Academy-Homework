@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<superheroes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <superhero id="6">
+    <name>Thanos</name>
+    <secretIdentity>Thanos</secretIdentity>
+    <alignment>evil</alignment>
+    <powers>
+      <power>Super strength</power>
+    </powers>
+    <powers>
+      <power>Telekinesis</power>
+    </powers>
+    <powers>
+      <power>Telepathy</power>
+    </powers>
+    <powers>
+      <power>Matter manipulation</power>
+    </powers>
+    <city>Unknown</city>
+  </superhero>
+</superheroes>
